@@ -1,0 +1,13 @@
+scipy>=1.6.2
+html
+json
+scikit-learn>=0.24.2
+spacy>=2.3.7
+multprocessing
+spacy-langdetect>=0.1.2
+pickle
+transformers>=4.30.2
+torch>=1.8.1
+sentence-transformers>=2.2.2
+huggingface-hub==0.10.1
+umap-learn>=0.5.3
