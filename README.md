@@ -15,7 +15,7 @@ The code should output pickled lists which are used to speed up the process in c
 ## Parameters
 Each parameter is explained in the -help argument, but some arguments may not be clear, so I will explain them here:
 1- <code>-n</code> or <code>--nclusters</code> : Setting the number here to be 200 won't really produce 200 cluster in the output nodes, but it will divide the data 200 times, but some divisions will end up being noisy and contain virtually no data which will be filtered automatically in the code. It's generally good to set the cluster number to be 1/100 of the data size to produce meaningful clusters.
-`<br>`
+<br/>
 2- <code>-d</code> or <code>--ndivisable</code> : Leaving the default value here which is 100 will probably be good enough but if your data is noisy you can decrease it, but no that when decreasing it, it's advised to increase <code>--nclusters</code> .
-`<br>`
+<br/>
 3- <code>-p</code> or <code>--percentage_filtered</code> : It's 90 by default, but you can increase it or decrease it if you find the keywords not satisfying.
